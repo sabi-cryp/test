@@ -62,7 +62,18 @@
 			</snapshots>
 		</repository>
 	</repositories>
-
+    <distributionManagement>
+        <repository>
+            <id>nexusinstance</id>
+            <name>release-maven</name>
+            <url>http://192.168.43.152:8081/repository/release-maven/</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexusinstance</id>
+            <name>snapshots-maven</name>
+            <url>http://192.168.43.152:8081/repository/snapshots-maven/</url>
+        </snapshotRepository>
+    </distributionManagement>
 	<pluginRepositories>
 		<pluginRepository>
 			<id>spring-snapshots</id>
