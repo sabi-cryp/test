@@ -9,7 +9,7 @@
 		<version>2.7.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.test</groupId>
+	<groupId>com.test</groupId>sudo 
 	<artifactId>test</artifactId>
 	<version>0.0.2-SNAPSHOT</version>
 	<name>test</name>
