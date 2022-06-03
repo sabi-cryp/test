@@ -13,17 +13,6 @@ services:
 
 
 
-  db:
-    image: postgres
-    restart: always
-    environment:
-      POSTGRES_PASSWORD: password
-
-  adminer:
-    image: adminer
-    restart: always
-    ports:
-      - 8083:8080
   
   
   
